@@ -1,0 +1,5 @@
+
+{
+    "_comment": "Sets a default layout for all pages",
+    "layout": "layout.njk"
+}
