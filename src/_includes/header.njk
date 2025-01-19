@@ -1,9 +1,11 @@
 <header>
     <a href="/"><h1>Paul Sermon</h1></a>
-    <ul>
-        
-    {% for page in collections['top-level'] %}
-        <a href="{{page.url}}">{{page.data.title}}</a>
-    {% endfor %}
-    </ul>
+    
+    <nav>
+        <ul>    
+        {% for page in collections['top-level'] %}
+            <li><a href="{{page.url}}">{{page.data.title}}</a></li>
+        {% endfor %}
+        </ul>
+    </nav>
 </header>

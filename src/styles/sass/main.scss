@@ -1,3 +1,132 @@
-h1 {
-    color: red;
+$title-font: "Anton", sans-serif;
+$main-font: "Roboto", sans-serif;
+
+// https://colorhunt.co/palette/252525ff0000af0404414141
+$dark-gray: #252525;
+$bright-red: #ff0000;
+$dark-red: #AF0404;
+$light-gray: #414141;
+
+// https://colorhunt.co/palette/32012f524c42e2dfd0f97300
+$dark-purple: #32012f;
+$dark-green: #524c42;
+$light-green: #e2dfd0;
+$light-orange: #f97300;
+
+$background-color: $dark-purple;
+$text-color: $light-green;
+$action-color: $light-orange;
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $background-color;
+    color: $text-color;
+    font-family: $main-font;
+}
+
+header {
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    h1 {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: $title-font;
+        margin: 0;
+        padding: 0;
+        line-height: 0.8em;
+        letter-spacing: -0.04em;
+        font-size: 4.4em;
+        white-space: nowrap;
+        color: $background-color;
+        background: $text-color;
+        text-align: center;
+    }
+
+    nav {
+        text-align: left;
+        ul {
+            padding: 2em 1em 1em 1em;
+            margin: 0;
+
+            li {
+                padding: 0 0.5em 0 0;
+                text-transform: uppercase;
+                white-space: nowrap;
+                list-style: none;
+                margin-bottom: 0.5em;
+
+                a {
+                   font-weight: bold;
+                    
+                    &:hover, &:hover {
+                        color: $action-color;
+                    }
+
+                    &::before {
+                        //right triangle html entity
+                        content: "\25B6";
+                        
+                        
+                        // content: "";
+                        font-weight: bold;
+                        padding-right: 0.5em;
+                    }
+                }
+
+                
+                
+                // &::before {
+                //     content: " | ";
+                //     font-weight: bold;
+                //     padding-right: 0.5em;
+                // }
+
+                // &:first-child::before {
+                //     content: "";
+                //     padding-left: 0;
+                // }
+            }
+        }
+    }
+}
+
+
+.content {
+    padding: 1em;
+
+    p {
+        a {
+            color: $action-color;
+        }
+    }
+
+    ul {
+        a {
+            color: $action-color;
+        }
+    }
+
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: white;
+        color: black;
+    }
+
+    header {
+        a {
+            h1 {
+                color: black;
+            }
+        }
+    }
+
 }

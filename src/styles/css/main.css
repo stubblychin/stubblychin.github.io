@@ -1,5 +1,76 @@
-h1 {
-  color: red;
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  background: #32012f;
+  color: #e2dfd0;
+  font-family: "Roboto", sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+header h1 {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 0.8em;
+  letter-spacing: -0.04em;
+  font-size: 4.4em;
+  white-space: nowrap;
+  color: #32012f;
+  background: #e2dfd0;
+  text-align: center;
+}
+header nav {
+  text-align: left;
+}
+header nav ul {
+  padding: 2em 1em 1em 1em;
+  margin: 0;
+}
+header nav ul li {
+  padding: 0 0.5em 0 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+header nav ul li a {
+  font-weight: bold;
+}
+header nav ul li a:hover, header nav ul li a:hover {
+  color: #f97300;
+}
+header nav ul li a::before {
+  content: "▶";
+  font-weight: bold;
+  padding-right: 0.5em;
+}
+
+.content {
+  padding: 1em;
+}
+.content p a {
+  color: #f97300;
+}
+.content ul a {
+  color: #f97300;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: white;
+    color: black;
+  }
+  header a h1 {
+    color: black;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,9 +1,8 @@
 ---
 layout: layout.njk
-title: Welcome to my blog
+title: Thoughts on making a website with 11ty
 tags: blog
 ---
 
-# Welcome to my blog
+# Thoughts on making a website with 11ty
 
-These are very profound thoughts about life and the universe.
