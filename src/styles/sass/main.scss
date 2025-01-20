@@ -13,8 +13,8 @@ $dark-green: #524c42;
 $light-green: #e2dfd0;
 $light-orange: #f97300;
 
-$background-color: $dark-purple;
-$text-color: $light-green;
+$background-color: white;
+$text-color: black;
 $action-color: $light-orange;
 
 
@@ -47,6 +47,7 @@ header {
         color: $background-color;
         background: $text-color;
         text-align: center;
+        padding-top: 0.4em;
     }
 
     nav {
