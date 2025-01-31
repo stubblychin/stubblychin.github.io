@@ -13,8 +13,8 @@ $dark-green: #524c42;
 $light-green: #e2dfd0;
 $light-orange: #f97300;
 
-$background-color: white;
-$text-color: black;
+$background-color: $dark-purple;
+$text-color: $light-green;
 $action-color: $light-orange;
 
 
@@ -51,7 +51,7 @@ header {
     }
 
     nav {
-        text-align: left;
+        text-align: center;
         ul {
             padding: 2em 1em 1em 1em;
             margin: 0;
@@ -101,6 +101,8 @@ header {
 
 .content {
     padding: 1em;
+    max-width: 600px;
+    margin: 0 auto;
 
     p {
         a {

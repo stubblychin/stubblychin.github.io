@@ -2,6 +2,7 @@
 title: Code of Conduct
 description: Code of Conduct for Improv South Wales
 tags: ['improv', 'wales', 'small-print']
+lastUpdated: 2025-01-31
 ---
 
 # Improv Code of Conduct

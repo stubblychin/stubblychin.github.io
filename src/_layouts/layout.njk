@@ -24,6 +24,13 @@
         <!-- Safe docs: https://mozilla.github.io/nunjucks/templating.html#safe -->
         <div class="content">
             {{ content | safe }}
+
+            {%if date %}
+                <p>Posted on {{ date | postDate }}  </p>
+            {%endif%}
+            {% if lastUpdated %}
+                <p>Last updated on {{ lastUpdated | postDate }}</p>
+            {% endif %}
         </div>
     </body>
 </html>
