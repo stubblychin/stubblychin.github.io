@@ -8,11 +8,19 @@ tags: ['improv', 'top-level', 'wales']
 
 Improv South Wales is an Improv workshop based in Carmarthen, Carmarthenshire.
 
-Would you like to meet new people, be silly, play make believe, play fun group games, make up characters, create stories together, or just have a laugh?
+Would you like to:
 
-Have you seen shows like Whose line is it anyway? Mock the Week, Ben Schwartz and Friends, or Paul Merton's Impro Chums and thought “that looks fun”? 
+- meet new people
+- be silly
+- play make believe
+- play fun group games
+- make up characters
+- create stories together
+- or just have a laugh?
 
-Why not try improvised comedy aka **improv**!?
+Have you seen shows like *Whose Line is it Anyway?*, *Mock the Week*, *Ben Schwartz and Friends*, or *Paul Merton's Impro Chums* and thought “that looks fun”? 
+
+Why not try improvised theatre and comedy aka **improv**!?
 
 See our latest class dates: EVENTBRITE LINK
 
