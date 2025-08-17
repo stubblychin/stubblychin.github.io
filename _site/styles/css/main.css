@@ -26,9 +26,10 @@ header h1 {
   color: #32012f;
   background: #e2dfd0;
   text-align: center;
+  padding-top: 0.4em;
 }
 header nav {
-  text-align: left;
+  text-align: center;
 }
 header nav ul {
   padding: 2em 1em 1em 1em;
@@ -55,6 +56,8 @@ header nav ul li a::before {
 
 .content {
   padding: 1em;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .content p a {
   color: #f97300;

@@ -1,7 +1,7 @@
 ---
 title: Stand-up Comedy
 description: Paul Sermon is a stand-up comedian based in Carmarthen, Carmarthenshire.
-tags: ['comedy', 'top-level']
+tags: ['comedy']
 ---
 
 # Stand-up Comedy

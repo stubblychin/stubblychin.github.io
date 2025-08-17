@@ -47,10 +47,11 @@ header {
         color: $background-color;
         background: $text-color;
         text-align: center;
+        padding-top: 0.4em;
     }
 
     nav {
-        text-align: left;
+        text-align: center;
         ul {
             padding: 2em 1em 1em 1em;
             margin: 0;
@@ -100,6 +101,8 @@ header {
 
 .content {
     padding: 1em;
+    max-width: 600px;
+    margin: 0 auto;
 
     p {
         a {
